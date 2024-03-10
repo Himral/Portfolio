@@ -1,0 +1,170 @@
+
+.main-body {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1% 2%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navbar{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.right-nav{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.right-nav a{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.main-img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-img{
+  width: 30rem;
+  height : 30rem;
+}
+.home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.home-content h1{
+  font-size: 3rem;
+  font-family: 'Lemonada', cursive;
+  margin: 0%;
+}
+.home-content p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.projects{
+  display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-family: 'Open Sans', sans-serif;
+
+}
+.project-card {
+  position: relative;
+  
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+        transition: 500ms linear;
+}
+.project:hover{
+  transform: scale(1.1);
+}
+
+.project-header{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-header p{
+  font-size: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-footer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.click-aboutme{
+  font-size: 2rem;
+    font-family: 'Lemonada', cursive;
+    margin-left : auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.click-aboutme a{
+  color: #f75628;
+}
+.footer-socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-socials-right a{
+  color: azure;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-socials a :hover{
+  cursor:grab;
+  text-decoration: underline;
+}
+
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.about img{
+  width:fit-content;
+  border-radius:1.5rem;
+  object-fit: cover;
+}
+.about-para {
+  position: relative;
+  overflow: hidden;
+}
+.about-content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 1.5rem;
+  margin-left: auto;
+  margin-right :auto;
+}
+body{
+  background-color: #181511;
+  color: aliceblue;
+  align-content: center;
+  
+}
