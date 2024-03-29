@@ -23,7 +23,7 @@ const About = () => {
         <div className="click-aboutme">
           <h4>
             Check out my{' '}
-            <a href="https://drive.google.com/file/d/16Xz-x5loWycWeg2EpSN9ZlydGUMo7rFd/view?usp=sharing">Resume</a>
+            <a href="">Resume</a>
           </h4>
         </div>
       </div>
